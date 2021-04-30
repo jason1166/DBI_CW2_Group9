@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #016876;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {    
+    padding: 25px;
+    text-align: center;    
+    overflow: hidden;
+    background: #009879;    
+    color: #C8FCEA;
+}
+
+header h1 {
+    color: #C8FCEA;
+}
+
+main {
+    margin: 1rem;
+    overflow: hidden;
+    color: #C8FCEA;    
+}
+
+main hr {
+    background-color: #C8FCEA;
+    border-color: #C8FCEA;
+}
+
+main section {
+    display: flex;
+    flex-flow: row wrap;    
+    align-items: center;
+    margin: 1.5rem 2.5rem;
+}
+
+.button {
+    appearance: button;
+    padding: .75rem;
+    margin: 0 .5rem 1rem 0;
+    min-width: 11ch;
+    border: none;    
+    border-radius: 10px;    
+    font-size: 1.25rem;
+    color: #F0FCF7;
+    background-color: #CB6C3F;
+}
+
+.button:hover, .button:focus {    
+    outline: none;
+    background-color: #FFA17A;
+    color: #002F19;
+    transform: scale(1.05);
+    transition: transform 250ms ease;
+}
+
+.button:active {
+    box-shadow: 0 8px 16px 0 #F2ECFF, 0 6px 20px 0 #777395;
+}
